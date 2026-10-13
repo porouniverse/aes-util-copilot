@@ -1,24 +1,39 @@
-# Compiled class file
-*.class
+# ==================== Node ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.bak
+yarn.lock.bak
 
-# Log file
+# ==================== 构建产物 ====================
+dist/
+build/
+.cache/
+.parcel-cache/
+.esbuild/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# ==================== 运行时 ====================
+*.local
+.env
+.env.local
+.env.*.local
+
+# ==================== IDE / 编辑器 ====================
+.idea/
+.vscode/
+*.code-workspace
+*.iml
+*.swp
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==================== 日志 ====================
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*

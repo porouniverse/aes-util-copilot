@@ -1,0 +1,15 @@
+{
+  "name": "aes-util-copilot",
+  "version": "0.0.1",
+  "description": "AES-GCM 加解密工具（路线 B） - Node.js 版",
+  "main": "aes-gcm-util.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["aes", "gcm", "pbkdf2", "encryption", "crypto"],
+  "license": "MIT"
+}
