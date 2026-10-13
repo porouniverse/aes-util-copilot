@@ -1,24 +1,53 @@
-# Compiled class file
-*.class
+# ==================== Go 构建产物 ====================
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
 
-# Log file
+# ==================== Go 覆盖率 ====================
+*.coverprofile
+*.cover
+.coverage/
+
+# ==================== 依赖 ====================
+/vendor/
+
+# ==================== IDE / 编辑器 ====================
+# GoLand
+.idea/
+*.iml
+# VS Code
+.vscode/
+*.code-workspace
+# Eclipse
+.settings/
+.project
+.classpath
+# Vim / Neovim
+.vimrc
+*.swp
+
+# ==================== 日志 ====================
 *.log
 
-# BlueJ files
-*.ctxt
+# ==================== 系统文件 ====================
+.DS_Store        # macOS
+Thumbs.db        # Windows
+ehthumbs.db      # Windows
+Desktop.ini      # Windows
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# ==================== 临时文件 ====================
+*.tmp
+*.bak
+*.swp
+*~
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# ==================== JVM 崩溃（如果将来有混合项目） ====================
 hs_err_pid*
 replay_pid*
