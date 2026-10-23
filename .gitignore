@@ -24,3 +24,15 @@ hs_err_pid*
 replay_pid*
 
 .idea/
+
+# ===== 联测运行产物（run.js 生成）=====
+# out/ 与 out-smoke/、out-10/ 等所有运行目录：用例、密文、校验结果、汇总报告、编译产物
+out*/
+run-*.log
+
+# Go 构建产物（若在仓库根直接构建）
+joint-go
+joint-go.exe
+
+# Node
+node_modules/
